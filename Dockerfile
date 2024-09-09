@@ -1,6 +1,6 @@
-FROM quay.io/princerudh/rudhra:latest
+FROM quay.io/hermit/hermit-ser:latest
 
-RUN git clone https://github.com/rudhachu/rudhra-3 /root/bot
-WORKDIR /root/bot/
+RUN git clone https://github.com/rudhachu/rudhra-3 /root/rudhra-3
+WORKDIR /root/rudhra-3/
 RUN yarn install --network-concurrency 1
-CMD ["npm", "start"]
+CMD ["node", "index.js"]
