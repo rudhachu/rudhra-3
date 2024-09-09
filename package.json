@@ -1,0 +1,34 @@
+{
+  "name": "rudhra-3",
+  "version": "1.0.0",
+  "description": "Rudhra Whatsapp Bot",
+  "main": "./index.js",
+  "scripts": {
+    "start": "pm2 start . --attach --name rudhra"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudhachu/rudhra-3.git"
+  },
+  "keywords": [
+    "bot",
+    "rudhra"
+  ],
+  "author": "princerudh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rudhachu/rudhra-3/issues"
+  },
+  "homepage": "https://github.com/rudhachu/rudhra-3#readme",
+  "dependencies": {
+     "@adiwajshing/baileys": "git+https://github.com/princerudh/Baileys.js.git",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "mask-md": "^1.3.0",
+    "node-webpmux": "^3.1.0",
+    "node": "20",
+    "npm": "6",
+    "@neeraj-x0/ytsearch": "^1.0.0",
+    "api-dylux": "^1.8.5",
+    "sqlite3": "^5.1.1"
+  }
+}
