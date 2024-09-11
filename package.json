@@ -11,7 +11,7 @@
   "author": "princerudh",
   "license": "ISC",
   "dependencies": {
-  "@adiwajshing/baileys": "git+https://github.com/princerudh/Baileys.js.git",
+  "@adiwajshing/baileys": "git+https://github.com/A-d-i-t-h-y-a-n/Baileys.js.git",
     "@neeraj-x0/ytsearch": "^1.0.0",
     "api-dylux": "^1.8.5",
     "axios": "^1.6.8",
