@@ -1,4 +1,4 @@
-FROM quay.io/hermit/hermit-ser:latest
+FROM quay.io/princerudh/rudhra:latest
 
 RUN git clone https://github.com/rudhachu/rudhra-3 /root/rudhra
 WORKDIR /root/rudhra/
